@@ -4,4 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "ipykernel>=6.29.5",
+    "prettyprinter>=0.18.0",
+    "py2neo>=2021.2.4",
+    "tqdm>=4.67.1",
+]
